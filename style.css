@@ -1,0 +1,59 @@
+.container{
+    width: 1440px !important;
+    background-color: white;
+}
+.header{
+    width: 1160px;
+    height: 70px;
+}
+.rowbanner{
+    display: flex;
+    justify-content: space-between;
+}
+.rowbanner .col-6{
+    width: 720px !important;
+}
+.hero-banner .col-6{
+    width: 100%;
+    height: 628px;
+}
+.hero-banner .banner-heading{
+    width: 472px;
+    height: 291px;
+    padding: 40px;
+}
+.banner-right{
+    height: 628px;
+    background-color: #C8C8C8;
+}
+.banner-left{
+    background-color: #F4F4F4;
+}
+.button{
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    color: white !important;
+    background-color: black !important;
+}
+.title{
+    margin: 40px;
+}
+
+.rowcard{
+    width: 1200px;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.rowcard .col-3{
+    width: calc(100% / 3);
+    height: 100px;
+}
+.rowcard .col-3 .img{
+    height: 100px;
+    background-color: #C8C8C8;
+}
