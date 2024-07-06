@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #acacac;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+header .logo {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #acacac;
+}
+
+.main-content {
+    max-width: 50%;
+}
+
+.main-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #6d6d6d;
+}
+
+.main-content button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.main-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.work {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgb(247, 246, 246);
+}
+
+.work .steps {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.work .step {
+    text-align: center;
+}
+
+.work .step img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.deals {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.deals .deals {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.deals .deal {
+    background-color: #e0e0e0;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgb(255, 255, 255);
+}
+
+footer .partners {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .partner {
+    background-color: #e0e0e0;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+}
