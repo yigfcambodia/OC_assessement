@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+header h2 {
+    margin: 0;
+}
+
+
+header .logo {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li.separator {
+    color: #fff; 
+    padding: 0 10px; 
+}
+
+.page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+}
+
+.page-content {
+    max-width: 50%;
+}
+
+.page-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.page-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.page-content button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.page-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.how_it_works {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(315deg, #d3d3d3 0%, #7bed9f 74%);
+}
+
+.how_it_works .steps {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.how_it_works .step {
+    text-align: center;
+}
+
+.how_it_works .step img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.popular_deals {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.popular_deals .deals {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.popular_deals .deal {
+    background-color: #e0e0e0;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(315deg, #d3d3d3 0%, #7bed9f 74%);
+}
+
+footer .partners {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .partner {
+    background-color: #e0e0e0;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+}
